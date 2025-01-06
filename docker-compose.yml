@@ -1,12 +1,12 @@
 services:
-  # web:
-  #   image: chronovortex07/react-web
-  #   ports:
-  #     - "3000:3000"
-  #   depends_on:
-  #     - api
-  #     - redis
-  #     - celery-worker
+  web:
+    image: chronovortex07/react-web
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+      - redis
+      - celery-worker
 
   api:
     image: chronovortex07/flask-api
