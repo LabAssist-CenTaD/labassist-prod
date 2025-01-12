@@ -74,7 +74,8 @@ In school laboratories, teachers face significant challenges:
 - Expanding detection capabilities to other experiments like separation techniques and salt preparation.
 - Optimising mobile compatibility for seamless video uploads.
 - Scaling backend to handle higher workloads for large-scale deployment.
-To use:
+
+## To use:
 1. Install & setup docker desktop
 2. Run `docker compose pull` from this directory
 3. Run `docker compose up` to start the application
@@ -87,3 +88,7 @@ Note:
     1. Open a new terminal
     2. Run `cd "C:\Program Files\Docker\Docker"`
     3. Run `./DockerCli.exe -SwitchLinuxEngine`
+
+## Source repositories
+ - https://github.com/LabAssist-CenTaD/labassist-prod
+ - https://github.com/LabAssist-CenTaD/labassist-web
