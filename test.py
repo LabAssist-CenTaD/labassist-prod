@@ -1,0 +1,4 @@
+# 4a: postorder traversal gives the postfix notation, preorder traversal gives the prefix notation, inorder traversal gives the infix notation
+# 5a: I is .. as it is two left traversals from the root. N is -. as it is one right, one left traversals from the root
+# 5c: Start at the root of the tree. Loop over the morse code string. For each dot, traverse left one time. For each dash, traverse right one time. Print the letter at the current position when the loop is finished
+# Inverting a binary tree is way more resource intensive compared to simple traversal, as the entire binary tree has to be iterated over for each letter until it is found. A better alternative would be simply storing the letter to morse code sequence in a dictionary, which has O(1) time complexity for lookups.

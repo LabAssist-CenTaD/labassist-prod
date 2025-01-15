@@ -1,0 +1,46 @@
+.video-player-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 8px;
+  background-color: var(--Background);
+  max-height: 100%;
+}
+
+.video-player-container .video-player {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.video-player-container .no-video-selected {
+  color: var(--Foreground);
+  font-family: Aeonik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: auto;
+}
+
+.loading-container {
+  margin: auto;
+  display: flex;
+  gap: 4px;
+}
+
+l-dot-stream {
+  padding-top: 12px;
+}
+
+.loading-text {
+  color: var(--Foreground);
+  font-family: Aeonik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

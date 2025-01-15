@@ -1,0 +1,35 @@
+.file-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 0 0;
+  width: auto;
+}
+
+.file-details .file-name {
+  overflow: hidden;
+  max-width: 100%;
+  font-size: 12px;
+  font-family: Aeonik;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--Foreground, #c9e8ff);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.file-details .file-path {
+  align-self: stretch;
+  overflow: hidden;
+  max-width: 100%; /* Ensure the path does not overflow */
+  font-size: 10px;
+  font-family: Aeonik;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  color: var(--blue-grey, #627888);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

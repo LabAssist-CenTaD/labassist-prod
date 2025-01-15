@@ -1,0 +1,19 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  padding: 8px;
+  background: var(--Blue-2, #002139);
+  border-radius: 8px;
+}
+
+.filter .wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  width: 100%;
+}
